@@ -2,8 +2,10 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders URL Shortener', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByText(/URL Shortener/)
+  const buttonElement = screen.getByText(/Shorten URL/)
+  expect(titleElement).toBeInTheDocument();
+  expect(buttonElement).toBeInTheDocument();
 });

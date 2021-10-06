@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## You need your own API key from Bitly to deploy on your own
+
 ## Available Scripts
 
 In the project directory, you can run:
